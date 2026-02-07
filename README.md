@@ -30,12 +30,12 @@ A **Streamlit web application** is included for interactive testing.
 
 ## 📁 Project Structure
 LSTM_next_word_predict/
-│
-├── app.py                         
-├── experiemnts.ipynb              
-├── hamlet.txt                     
-├── tokenizer.pickle              
-├── next_word_lstm.keras           
-├── requirements.txt            
-├── README.md                      
+├── app.py                    # Streamlit application for next-word prediction
+├── experiemnts.ipynb          # Model training and experimentation notebook
+├── hamlet.txt                # Shakespeare (Hamlet) dataset
+├── tokenizer.pickle          # Saved tokenizer for inference
+├── next_word_lstm.keras      # Trained LSTM model (Keras format)
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
+                  
 
